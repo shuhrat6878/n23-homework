@@ -165,6 +165,20 @@
 
 // } while (n <= 9);
 
+// 4-masala
+
+// let n = 86941
+// let son = n.toString();
+// let katta=0
+// for (let i = 0; i < son.length; i++){
+//     let raqam = +son[i]
+//     if (raqam > katta) {
+//         katta = raqam;
+//     }
+// }
+// console.log(katta);
+
+
 
 // 5-masala
 
@@ -181,13 +195,27 @@
 
 
 
-// qopshimcha-------------------------------
+// --------------qopshimcha-------------------------------
+
+// 111111111111111
 
 // for (let i = 0; i < 5; i++){
 //     let a=''
 //     for (let j = 0; j < 5; j++){
-//         a+=' * '        
+//         a+=' * '
 //     }
 //     console.log(a);
     
-}
+// }
+
+// 2222222222222222222222
+// let n = 3
+ 
+// for (let i = 1; i <= n; i++) {
+//     let son = ''
+//     for (j = 1; j <= n; j++){
+//         for(let g=1;g<=n;g++){
+//             console.log(i,j,g)
+//         }
+//     }
+// }

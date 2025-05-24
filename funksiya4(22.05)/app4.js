@@ -182,6 +182,8 @@ Output: 10
 // }
 // console.log( teskari(1234));
 
+
+
 // 3- masala
 
 // const yigindi = (num) => {

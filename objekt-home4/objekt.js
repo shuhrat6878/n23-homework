@@ -143,4 +143,30 @@ Foydalanish: calculator.daraja(2, 3) // 8
 */
 
 
-//  hozir davom etaman ...................
+
+let kankulatr = {
+    qoshish: function (a, b) {
+        console.log(a+b);
+    },
+    ayirish: function (a, b) {
+        console.log(a - b);
+    },
+    kopaytirish: function (a, b) {
+        console.log(a * b);
+    },
+    bolish: function (a, b) {
+        console.log(a / b);
+    },
+    sqrt: function (a) {
+        console.log(Math.sqrt(a));
+    },
+    daraja: function (a, b) {
+        console.log(a ** b);
+    }
+}
+kankulatr.ayirish(25, 5);
+kankulatr.qoshish(15, 5);
+kankulatr.kopaytirish(12, 3);
+kankulatr.sqrt(81);
+kankulatr.bolish(64, 8);
+kankulatr.daraja(2, 4);

@@ -170,3 +170,123 @@ kankulatr.kopaytirish(12, 3);
 kankulatr.sqrt(81);
 kankulatr.bolish(64, 8);
 kankulatr.daraja(2, 4);
+
+
+
+
+// ------qoshimcha--------
+
+/** 
+talaba nomli obyekt yarat.
+
+Quyidagi ma'lumotlarni unga qo‘sh:
+
+ism — string
+
+yosh — number
+
+fanlar — massiv (masalan: ["matematika", "fizika", "informatika"])
+
+Talabaning 2-fanini konsolga chiqar.
+
+Talabaga manzil degan yangi xususiyat qo‘sh ("Toshkent").
+
+Obyektni console.log() bilan chiqar.
+*/
+
+// let talaba = {
+//     ism: 'Shuxrat',
+//     yosh: 26,
+//     fanlar: ['matematika', 'fizika', 'informatika']
+// };
+// // 1
+// console.log(`Talabaning 2- fani:${talaba.fanlar[1]}`);
+
+// // 2
+// talaba.manzil = 'Toshkent';
+// console.log(talaba)
+
+
+
+// 2222222222222
+/** 
+mahsulot nomli obyekt yarat.
+
+Quyidagi xususiyatlarni qo‘sh:
+
+nomi: string (masalan "non")
+
+narxi: number (masalan 3000)
+
+soni: number (masalan 5)
+
+hisobla() nomli metod (funksiya) yoz. Bu metod mahsulotning umumiy narxini (narxi * soni) hisoblab console.log() orqali chiqarib bersin.
+
+mahsulot.hisobla() ni chaqirib natijani ko‘r.
+*/
+
+
+// let mahsulot = {
+//     nomi: 'non',
+//     narxi: 3000,
+//     soni: 5,
+//     hisobla: function(){
+//         console.log(this.narxi * this.soni);
+//     }
+// }
+// mahsulot.hisobla()
+
+
+// 3
+
+// let avto = {
+//     model: "Malibu ",
+//     texnik: {
+//         yil: 2020,
+//         mator: 1.5,
+//         rang: "qora"
+//     }
+// };
+
+// console.log(` mator -${avto.texnik.mator}`);
+
+// avto.egasi = 'Shuxrat';
+
+// console.log(avto)
+
+// // 4
+
+// let kitob1 = {
+//     nomi: 'sariq devni minib',
+//     muallif: 'Xudoyberdi Toxtaboyev'
+// };
+// let kitob2 = {
+//     nomi: 'Otgan kunlar',
+//     muallif: 'Abdulla Qodiriy'
+// };
+// let kitob3 = {
+//     nomi: 'Yulduzli tunlar',
+//     muallif: 'Pirimqul qodirov'
+// };
+
+// for (let i in kitob1) {
+//     console.log(i,kitob1[i])
+// }
+
+// let kitoblar = [
+//     {
+//         nomi: 'sariq devni minib',
+//         muallif: 'Xudoyberdi Toxtaboyev'
+//     },
+//     {
+//         nomi: 'Otgan kunlar',
+//         muallif: 'Abdulla Qodiriy'
+//     },
+//     {
+//         nomi: 'Yulduzli tunlar',
+//         muallif: 'Pirimqul qodirov'
+//     }
+// ];
+// for (let kitob of kitoblar) {
+//     console.log(`kitob nomi: "${kitob.nomi}", muallifi: ${kitob.muallif}`);
+// }

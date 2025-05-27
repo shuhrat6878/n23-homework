@@ -319,13 +319,13 @@
 
 // 30- misoll
 
-// let raqam = 23
+// let raqam = '23'
 // let box = raqam.padStart(5, '0');
 // console.log(box);
 
 // 31- misoll
 
-// let raqam = 45
+// let raqam = '45'
 // let box = raqam.padEnd(5, '0');
 // console.log(box);
 
@@ -362,8 +362,8 @@
 
 // 35- misoll
 
-let soz= "assalom"
-console.log(soz.lastIndexOf("s"));
+// let soz= "assalom"
+// console.log(soz.lastIndexOf("s"));
 
 
 

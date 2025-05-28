@@ -253,17 +253,59 @@ chatroomStatus(["s234f", "mailbox2"]) ➞ "s234f and mailbox2 online"
 chatroomStatus(["pap_ier44", "townieBOY", "panda321", "motor_bike5", "sandwichmaker833", "violinist91"]) ➞ "pap_ier44, townieBOY and 4 more online"
  
 */
+function online(arr) {
+    // if(arr )
+}
+
+
+// 1-masala
+
+// let arr=[true, false, false, true, false]
+// let arr2=[false, false, false, false]
+// let arr3 = []
+// function trueFalse(arr) {
+//     return arr.filter((element) => element == true).length;
+// }
+// console.log(trueFalse(arr));
 
 
 
+// // 2-msaala
+
+// let arr= [1,2,3]
+// let arr2= [4,5,6]
+// let arr3= [1,2,3]
+// function kopaytma(arr) {
+//     return arr.map(num => num * 2);
+// }
+// console.log(kopaytma(arr));
 
 
+// // // 3- masala
+
+// let arr = [1, 5, 9]
+// let arr2 =[3,4,5]
+// let arr3 = [0]
+// function box(arr) {
+//     let process = arr.reduce((a, b) => a += b**3);
+//     return process
+// }
+// console.log(box(arr))
 
 
+// 4- masala
 
 
-
-
+// let  soz= "salom"
+// function chochmoq(soz) {
+//     let  res=[]
+//     for (let i = 1; i <= soz.length; i++){
+//         res.push(soz.slice(0, i));
+    
+//     }
+//     return res
+// }
+// console.log(chochmoq("shuxrat"));
 
 
 

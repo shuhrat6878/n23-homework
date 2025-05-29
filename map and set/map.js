@@ -205,9 +205,19 @@
 // 10-masala
 
 
-function sana(map) {
+let map = new Map()
+map.set('2020.12.01', 100)
+map.set('2021.11.01', 80)
+map.set('2022.10.01', 90)
+map.set('2017.10.09',55)
 
-}
+const news = new Map(
+   [...map.entries()].sort()
+)
+   
+console.log(news);
+
+
 
 
 

@@ -40,9 +40,12 @@
 // 3-masala
 
 // const person = { name: 'ali' }
-
 // const yangiSet = new Set();
-// yangiSet.add(person);
+
+// function tekshir(user) {
+//      yangiSet.add(person);
+    
+// }
 
 
 // function isLoggedln(user) {
@@ -52,8 +55,10 @@
 //     return false
 //   }
 // }
+
+// tekshir(person)
 // console.log(isLoggedln(person))
-// console.log(isLoggedln({ name: "vali" }));
+// // console.log(isLoggedln({ name: "vali" }));
 
 
 // 4-masala
@@ -61,8 +66,10 @@
 // const massage = { ali: 'salom' };
 
 // const newSet = new Set();
-
-// newSet.add(massage);
+// function tekshir(user) {
+//     newSet.add(massage);
+     
+//  }
 
 // function hasSentMassage(user) {
 //   if (newSet.has(user)) {
@@ -71,6 +78,7 @@
 //     return false
 //   }
 // }
+// tekshir(massage);
 //  console.log(hasSentMassage(massage));
 //  console.log(hasSentMassage({vali:'salom'}));
  

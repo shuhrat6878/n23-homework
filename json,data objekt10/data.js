@@ -84,6 +84,20 @@
 
 // 6- masala
 
+// let yangiObj = {};
+
+// Object.defineProperty(yangiObj, 'readOnly', {
+//   value: "Bu o‘zgarmas qiymat",
+//   writable: false,
+//   configurable: true,
+//   enumerable: true
+// });
+
+// console.log("avval:", yangiObj.readOnly);
+
+// yangiObj.readOnly = "yangi qiymat";
+
+// console.log("keyin:", yangiObj.readOnly);
 
 
 
@@ -105,3 +119,23 @@
 
 // console.log("yashirin" in user);
 // console.log(user.secret);
+
+
+// 8-masala
+
+
+// let person = {};
+
+// Object.defineProperty(person, 'id', {
+//   value: 12345,
+//   writable: true,
+//   enumerable: true,
+//   configurable: false 
+// });
+
+// delete person.id;
+// console.log("O‘chirilganidan so‘ng id:", person.id);  
+
+// Object.defineProperty(person, 'id', {
+//   writable: false
+// });

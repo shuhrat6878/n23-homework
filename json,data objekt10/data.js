@@ -82,4 +82,26 @@
 // }
 // console.log(hisoblash(1,2,3,4,5,6,7,8,9,10))
 
+// 6- masala
 
+
+
+
+// // 7- masala
+
+// let user = {
+//   name: "Shuxrat",
+//   age: 26
+// };
+
+// Object.defineProperty(user, 'yashirin', {
+//   value: "Bu korinmaydigan qisim",
+//   enumerable: false
+// });
+
+// for (let key in user) {
+//   console.log(key);
+// }
+
+// console.log("yashirin" in user);
+// console.log(user.secret);

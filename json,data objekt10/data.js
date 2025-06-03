@@ -130,12 +130,33 @@
 //   value: 12345,
 //   writable: true,
 //   enumerable: true,
-//   configurable: false 
+//   configurable: false
 // });
 
 // delete person.id;
-// console.log("O‘chirilganidan so‘ng id:", person.id);  
+// console.log("O‘chirilganidan so‘ng id:", person.id);
 
 // Object.defineProperty(person, 'id', {
 //   writable: false
 // });
+
+
+
+
+class User {
+    constructor(id,name,password) {
+        this.name = name,
+        this.id = id,
+        this.password = password,
+        this.balance = 0
+    }
+}
+
+class Bank{
+    constructor() {
+        this.customer = new Map();
+    }
+    register(id, name, password) {
+        
+    }
+}

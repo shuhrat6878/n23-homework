@@ -92,17 +92,17 @@
 
 // 5- masala
 
-// let Car = {
-//     brand: "nexia 2",
-//     speed: 100,
-//     drive: function () {
-//         console.log(this.brand + " is driving at " + this.speed + " km/h");
-//     }
-// };
-// let sportsCar = Object.create(Car);
-// sportsCar.brand = "malibu 2";
-// sportsCar.speed = 200;
+let Car = {
+    brand: "nexia 2",
+    speed: 100,
+    drive: function () {
+        console.log(this.brand + " is driving at " + this.speed + " km/h");
+    }
+};
+let sportsCar = Object.create(Car);
+sportsCar.brand = "malibu 2";
+sportsCar.speed = 200;
 
-// sportsCar.drive(); 
-// console.log(sportsCar); 
+sportsCar.drive(); 
+console.log(sportsCar); 
 

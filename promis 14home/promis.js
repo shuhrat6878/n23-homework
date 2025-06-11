@@ -16,6 +16,18 @@ function print(res) {
         textEl.textContent = post.body;
         textEl.classList.add('stil');
         boxxEl.append(textEl);
+
+        const element = document.createElement('p');
+        element.textContent = post.title;
+        element.classList.add('rang');
+        boxxEl.append(element);
+
+
+        const idlar = document.createElement('p');
+        idlar.textContent = post.id;
+        idlar.classList.add('yangi');
+        boxxEl.append(idlar);
+
         console.log(textEl)
     });
 }

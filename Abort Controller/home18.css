@@ -1,0 +1,24 @@
+#box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 2px ;
+    padding: 20px;
+    width: 200px;
+    margin: 10px;
+    background-color: rgba(101, 79, 203, 0.409);
+}
+
+.card img {
+    width: 50%;
+    height: 100px;
+    object-fit: fill;
+}
+
+#keyingi {
+    margin-top: 20px;
+    padding: 10px 20px;
+    margin: auto;
+}

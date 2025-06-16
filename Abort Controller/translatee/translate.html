@@ -1,12 +1,32 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>tarjima</title>
+    <link rel="stylesheet" href="./stayle.css">
 </head>
+
 <body>
-    <script src="./translate.js"></script>
+    <h1>Translator</h1>
+    <select id="tarjima">
+        <option value="en">English</option>
+        <option value="uz">O'zbek</option>
+    </select>
+    <select id="qadam">
+        <option value="uz">O'zbek</option>
+        <option value="en">English</option>
+    </select><br>
+    <h3>Kiritish:</h3>
+    <textarea id="kiritish""></textarea>
+    <h3>Chiqarish:</h3>
+    <textarea id="chiqarish"></textarea><br>
+
+    <button onclick="translateText()">Tarjima</button>
+
+    <script>
+        
+    </script>
 </body>
+
 </html>

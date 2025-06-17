@@ -102,6 +102,17 @@
 // matn = "National Aeronautics Space Administration";
 // console.log(boshHarf(matn))
 
+// 8-masala
+
+// function teskari( matn){
+//     const soz = matn.split(' ').reverse().join(' ');
+//     return soz
+// }
+// soz = "Men JavaScript organmoqdaman";
+// console.log(teskari(soz));
+
+
+
 // 9- masala
 
 // function raqamlar(str) {
@@ -112,6 +123,21 @@
 // son2 ='12d23'
 // console.log(raqamlar(son));
 // console.log(raqamlar(son2));
+
+// 10-masala
+
+
+// let obj = [
+//     { name: "Ali", age: 22 },
+//     { name: "Vali", age: 19 },
+//     { name: "Sami", age: 25 }]
+
+// function yoshboyicha(arr) {
+//     const matn = arr.sort((a, b) => a.age - b.age)
+//     return matn
+// }
+// console.log(yoshboyicha(obj));
+
 
 // // 11-misoll
 
@@ -142,6 +168,12 @@
 // }
 // son = [3, 5, 7, 2, 8];
 // console.log(maxx(son));
+
+
+// 13-masala
+
+
+
 
 // 14-masala
 
